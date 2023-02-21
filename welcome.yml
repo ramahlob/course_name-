@@ -1,0 +1,7 @@
+name: Post Welcome comment 
+on: 
+    pull request:
+     types: [opened]
+    permisions: 
+     pull-request: write
+    
